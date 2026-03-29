@@ -1,0 +1,54 @@
+﻿@import "tailwindcss";
+
+:root {
+  --pink-1: #fff4f9;
+  --pink-2: #ffd9e8;
+  --pink-3: #f7b7d1;
+  --pink-4: #ea8db6;
+  --pink-5: #cf5d93;
+  --pink-6: #ab3f72;
+  --rose-ink: #8b3f65;
+  --rose-deep: #5f2142;
+  --white-soft: rgba(255, 248, 252, 0.8);
+  --line: rgba(171, 63, 114, 0.18);
+}
+
+@theme inline {
+  --color-background: var(--pink-1);
+  --color-foreground: var(--rose-deep);
+  --font-sans: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: var(--rose-deep);
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.9), transparent 24%),
+    radial-gradient(circle at top right, rgba(234, 141, 182, 0.34), transparent 30%),
+    radial-gradient(circle at bottom left, rgba(207, 93, 147, 0.18), transparent 26%),
+    linear-gradient(180deg, #fff7fb 0%, #ffddeb 38%, #f4bdd5 68%, #e78fb7 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(207, 93, 147, 0.28);
+}
