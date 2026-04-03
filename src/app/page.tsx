@@ -68,7 +68,7 @@ export default function Home() {
 
               <div className="mt-8 flex flex-col items-center gap-3">
                 <a
-                  href="https://soundcloud.com/user68291142/sets/1diziulmm0jn"
+                  href="https://www.youtube.com/watch?v=McrDiaxcR7o"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-full bg-[linear-gradient(135deg,var(--pink-5),var(--pink-6))] px-8 py-3 text-base font-semibold text-white shadow-[0_16px_34px_rgba(176,74,120,0.35)] transition-transform duration-300 hover:-translate-y-1"
@@ -102,3 +102,4 @@ export default function Home() {
     </main>
   );
 }
+
